@@ -12,7 +12,7 @@ LeetCode_Solutions
 │   ├── LC1_TwoSum.java
 │   └── LC2_AddTwoNumbers.java
 │
-├── Tags
+├── tags
 │ ├── 01_Sorting.md
 │ └── 02_TwoPointers.md
 ```
@@ -20,4 +20,4 @@ LeetCode_Solutions
 ## Navigation
 
 - `0001-1000/0001-0100`: Contains solutions for problems 1 to 100.
-- `Tags`: Contains markdown files with explanations and notes categorized by problem-solving techniques or tags.
+- `tags`: Contains markdown files with explanations and notes categorized by problem-solving techniques or tags.
