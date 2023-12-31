@@ -55,3 +55,19 @@ i = 4, curPrice = 6, minPrice = 1, curProfit = 5, maxProfit = 5
 i = 5, curPrice = 4, minPrice = 1, curProfit = 3, maxProfit = 5
 ```
 
+# LC122_BestTimeToBuyAndSellStockII.java
+* [Problem Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+* [Solution Link](../../LC0001_1000/LC0101_0200/LC0122_BestTimeToBuyAndSellStockII.java)
+* Idea: Greedy / Simple One Pass. 
+  * Variables:
+    * `maxProfit` is the maximum profit that we can get so far.
+  * Conditions: If `prices[i] > prices[i - 1]`, it means that we can buy at `prices[i - 1]` and sell at `prices[i]` to get a larger profit. Otherwise, do nothing.
+```
+[7,1,5,3,6,4]
+i = 1, prices[i] - prices[i - 1] = -6, maxProfit = 0
+i = 2, prices[i] - prices[i - 1] = 4, maxProfit = 4
+i = 3, prices[i] - prices[i - 1] = -2, maxProfit = 4
+i = 4, prices[i] - prices[i - 1] = 3, maxProfit = 7
+i = 5, prices[i] - prices[i - 1] = -2, maxProfit = 7
+```
+

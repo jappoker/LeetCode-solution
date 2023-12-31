@@ -3,6 +3,7 @@ This file contains a series of questions with their possible followup questions,
 
 # Best Time to Buy and Sell Stock [*Greedy]
 1. Basic Question: [LC121_BestTimeToBuyAndSellStock.java](../LC0001_1000/LC0101_0200/LC0121_BestTimeToBuyAndSellStock.java), only one transaction is allowed.
+2. Followup 1: [LC122_BestTimeToBuyAndSellStockII.java](../LC0001_1000/LC0101_0200/LC0122_BestTimeToBuyAndSellStockII.java), multiple transactions are allowed.
 
 # Jump Game [*Greedy/DP]
 1. Basic Question: [LC55_JumpGame.java](../LC0001_1000/LC0001_0100/LC0055_JumpGame.java), can jump to the end or not?

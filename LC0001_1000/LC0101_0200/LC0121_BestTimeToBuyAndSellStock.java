@@ -40,7 +40,14 @@ public class LC0121_BestTimeToBuyAndSellStock {
     // This solution is more like a greedy algorithm
     // We keep track of the minimum price we have seen so far
     // and we keep track of the max profit we can get by selling the stock at the current price
-    
+    // For exampe: [7,1,5,3,6,4]
+    // i = 0, price = 7, buy = 7, curProfit = 0, result = 0
+    // i = 1, price = 1, buy = 1, curProfit = 0, result = 0
+    // i = 2, price = 5, buy = 1, curProfit = 4, result = 4
+    // i = 3, price = 3, buy = 1, curProfit = 2, result = 4
+    // i = 4, price = 6, buy = 1, curProfit = 5, result = 5
+    // i = 5, price = 4, buy = 1, curProfit = 3, result = 5
+
     // Most Straightforward Solution would be Brute Force: use two for loops to find the max profit
     // Time Complexity: O(N^2)
 
