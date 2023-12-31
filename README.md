@@ -12,15 +12,20 @@ LeetCode_Solutions
 │   ├── LC1_TwoSum.java
 │   └── LC2_AddTwoNumbers.java
 │
-├── tags
+├── Tags
 │ ├── 01_Sorting.md
 │ └── 02_TwoPointers.md
+│
+├── QuestionSets
+│ └── README.md
+
 ```
 
 ## Navigation
 
 - `0001-1000/0001-0100`: Contains solutions for problems 1 to 100.
-- `tags`: Contains markdown files with explanations and notes categorized by problem-solving techniques or tags.
+- `Tags`: Contains markdown files with explanations and notes categorized by problem-solving techniques or tags.
+- `QuestionSets`: Contains markdown files with a series of questions and their possible followup questions, sorted by alphabetical order.
 
 # How to grok a LeetCode problem in an interview
 7 Steps to solve a LeetCode problem in an interview:
