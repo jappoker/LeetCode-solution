@@ -1,10 +1,20 @@
 # Two Pointers
 This folder contains problems and solutions related to two pointers.
 
+# LC26_RemoveDuplicatesFromSortedArray.java
+* [Problem Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+* [Solution Link](../../LC0001_1000/LC0001_0100/LC0026_RemoveDuplicatesFromSortedArray.java)
+* Idea: two pointers (`i` and `j`) starting from the beginning of `nums`. `i` is the slow pointer, `j` is the fast pointer. If `nums[i-1] == nums[j]`, increment `j` (skip this element). Otherwise, put `nums[j]` to `nums[i]`, and increment `i`.
+
 # LC27_RemoveElement.java
 * [Problem Link](https://leetcode.com/problems/remove-element/)
 * [Solution Link](../../LC0001_1000/LC0001_0100/LC0027_RemoveElement.java)
 * Idea: two pointers (`i` and `j`) starting from the beginning of `nums`. `i` is the slow pointer, `j` is the fast pointer. If `nums[j] != val`, put `nums[j]` to `nums[i]`, and increment `i`. Otherwise, increment `j`.
+
+# LC80_RemoveDuplicatesFromSortedArrayII.java
+* [Problem Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+* [Solution Link](../../LC0001_1000/LC0071_0080/LC0080_RemoveDuplicatesFromSortedArrayII.java)
+* Idea: two pointers (`i` and `j`) starting from the beginning of `nums`. `i` is the slow pointer, `j` is the fast pointer. If `nums[i-2] == nums[j]`, increment `j` (skip this element). Otherwise, put `nums[j]` to `nums[i]`, and increment `i`. 
 
 # LC88_MergeSortedArray.java
 * [Problem Link](https://leetcode.com/problems/merge-sorted-array/)
