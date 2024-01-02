@@ -71,3 +71,12 @@ i = 4, prices[i] - prices[i - 1] = 3, maxProfit = 7
 i = 5, prices[i] - prices[i - 1] = -2, maxProfit = 7
 ```
 
+# LC134_GasStation.java
+* [Problem Link](https://leetcode.com/problems/gas-station/)
+* [Solution Link](../../LC0001_1000/LC0131_0140/LC0134_GasStation.java)
+* Idea: Greedy. 
+  * Variables:
+    * `total` is the total gas that we have. 
+    * `tank` is the gas that we have in the tank. 
+    * `start` is the starting station, initialized to `0`.
+  * Conditions: At station `i`, update `tank` to `tank + gas[i] - cost[i]`, if `tank < 0`, it means that we cannot reach the next station from the current `start`, so we need to update `start` to `i + 1` with `tank = 0`. Also update `total` to `total + gas[i] - cost[i]`. If `total >= 0` at the end, return `start`. Otherwise, return `-1`.
