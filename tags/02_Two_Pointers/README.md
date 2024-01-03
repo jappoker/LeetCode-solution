@@ -52,3 +52,8 @@ j
 * [Problem Link](https://leetcode.com/problems/valid-palindrome/)
 * [Solution Link](../../LC0001_1000/LC0121_0130/LC0125_ValidPalindrome.java)
 * Idea: two pointers (`i` and `j`) starting from the beginning and end of `s`, respectively. If `s[i]` is not alphanumeric, increment `i`. If `s[j]` is not alphanumeric, decrement `j`. If `s[i]` and `s[j]` are both alphanumeric, compare them. If they are not equal, return `false`. Otherwise, increment `i` and decrement `j`.
+
+# LC167_TwoSumII_InputArrayIsSorted.java
+* [Problem Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+* [Solution Link](../../LC0001_1000/LC0161_0170/LC0167_TwoSumII_InputArrayIsSorted.java)
+* Idea: two pointers (`i` and `j`) starting from the beginning and end of `nums`, respectively. If `nums[i] + nums[j] == target`, return `[i+1, j+1]`. If `nums[i] + nums[j] < target`, increment `i`. If `nums[i] + nums[j] > target`, decrement `j`.

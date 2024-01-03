@@ -1,6 +1,10 @@
 # Introduction
 This file contains a series of questions with their possible followup questions, named by [Question Series - [Solutions]] (where * means primary solution), sorted by alphabetical order.
 
+# 2Sum/3Sum/4Sum [*Two Pointers + HashMap]
+1. Basic Question: [LC1_TwoSum.java](../LC0001_1000/LC0001_0100/LC0001_TwoSum.java), `nums[i] + nums[j] = target`, return `{i, j}`.
+2. Sorted Array: [LC167_TwoSumII_InputArrayIsSorted.java](../LC0001_1000/LC0161_0170/LC0167_TwoSumII_InputArrayIsSorted.java), `nums[i] + nums[j] = target`, return `{i + 1, j + 1}`. (Notice that the array is sorted & the index starts from 1)
+
 # Best Time to Buy and Sell Stock [*Greedy]
 1. Basic Question: [LC121_BestTimeToBuyAndSellStock.java](../LC0001_1000/LC0101_0200/LC0121_BestTimeToBuyAndSellStock.java), only one transaction is allowed.
 2. Followup 1: [LC122_BestTimeToBuyAndSellStockII.java](../LC0001_1000/LC0101_0200/LC0122_BestTimeToBuyAndSellStockII.java), multiple transactions are allowed.
