@@ -10,7 +10,8 @@ This file contains a series of questions with their possible followup questions,
 2. Followup: [LC45_JumpGameII.java](../LC0001_1000/LC0001_0100/LC0045_JumpGameII.java), minimum number of jumps to reach the end?
 
 # Palindrome [*DP]
-1. [*DFS+Backtracing]: [LC131_PalindromePartitioning.java](../LC0001_1000/LC0101_0200/LC0131_PalindromePartitioning.java), partition a string into palindrome substrings.
+1. Basic Question: [Two Pointers] [LC125_ValidPalindrome.java](../LC0001_1000/LC0121_0130/LC0125_ValidPalindrome.java), check if a string is palindrome.
+2. [*DFS+Backtracing]: [LC131_PalindromePartitioning.java](../LC0001_1000/LC0101_0200/LC0131_PalindromePartitioning.java), partition a string into palindrome substrings.
 
 # Remove Duplicates from Sorted Array [*Two Pointers]
 1. Basic Question: [LC26_RemoveDuplicatesFromSortedArray.java](../LC0001_1000/LC0001_0100/LC0026_RemoveDuplicatesFromSortedArray.java), remove duplicates from sorted array: `nums[fast]!=nums[slow-1]`
