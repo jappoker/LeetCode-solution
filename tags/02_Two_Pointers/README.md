@@ -1,6 +1,11 @@
 # Two Pointers
 This folder contains problems and solutions related to two pointers.
 
+# LC15_3Sum.java
+* [Problem Link](https://leetcode.com/problems/3sum/)
+* [Solution Link](../../LC0001_1000/LC0011_0020/LC0015_3Sum.java)
+* Idea: two pointers (`i` and `j`) starting from the beginning and end of `nums`, respectively. If `nums[i] + nums[j] + nums[k] == target`, return `{i, j, k}`. Sort the array first, then for each `nums[i]`, use two pointers starting from `i + 1` and `n - 1` to find the solution.
+
 # LC26_RemoveDuplicatesFromSortedArray.java
 * [Problem Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 * [Solution Link](../../LC0001_1000/LC0001_0100/LC0026_RemoveDuplicatesFromSortedArray.java)

@@ -4,6 +4,7 @@ This file contains a series of questions with their possible followup questions,
 # 2Sum/3Sum/4Sum [*Two Pointers + HashMap]
 1. Basic Question: [LC1_TwoSum.java](../LC0001_1000/LC0001_0100/LC0001_TwoSum.java), `nums[i] + nums[j] = target`, return `{i, j}`.
 2. Sorted Array: [LC167_TwoSumII_InputArrayIsSorted.java](../LC0001_1000/LC0161_0170/LC0167_TwoSumII_InputArrayIsSorted.java), `nums[i] + nums[j] = target`, return `{i + 1, j + 1}`. (Notice that the array is sorted & the index starts from 1)
+3. 3 Sum: [LC15_3Sum.java](../LC0001_1000/LC0011_0020/LC0015_3Sum.java), `nums[i] + nums[j] + nums[k] = target`, return `{i, j, k}`. Sort the array first, then for each `nums[i]`, use two pointers starting from `i + 1` and `n - 1` to find the solution.
 
 # Best Time to Buy and Sell Stock [*Greedy]
 1. Basic Question: [LC121_BestTimeToBuyAndSellStock.java](../LC0001_1000/LC0101_0200/LC0121_BestTimeToBuyAndSellStock.java), only one transaction is allowed.
