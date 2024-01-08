@@ -60,6 +60,22 @@ public class LC0200_NumberOfIslands{
         return count;
     }
 
+    public int numIslands_dfs(char[][] grid) {
+        // corner case
+        if(grid == null || grid.length == 0 || grid[0] == null || grid[0].length == 0) return -1;
+
+        int count = 0;
+        for(int i = 0; i < grid.length; i ++){
+            for(int j = 0; j < grid[0].length; j ++){
+                if(grid[i][j] == '1'){
+                    count ++;
+                    dfs(grid, i, j);
+                }
+            }
+        }
+        return count;
+    }
+
     /**
      * Solution: DFS
      * Time Complexity: O(M*N)

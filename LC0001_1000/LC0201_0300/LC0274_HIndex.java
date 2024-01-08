@@ -27,7 +27,7 @@ import java.util.Arrays;
  * 1 <= n <= 5000
  * 0 <= citations[i] <= 1000
  */
-public class LC274_HIndex {
+public class LC0274_HIndex {
 
     /**
      * Solution: Sort
@@ -78,7 +78,7 @@ public class LC274_HIndex {
 
     public static void main(String[] args) {
         System.out.println("274. H-Index [medium]");
-        LC274_HIndex inst = new LC274_HIndex();
+        LC0274_HIndex inst = new LC0274_HIndex();
         int[] citations = new int[]{3,0,6,1,5};
         System.out.println(inst.hIndex1(citations)); // 3
         System.out.println(inst.hIndex2(citations)); // 3
