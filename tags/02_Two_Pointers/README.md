@@ -62,3 +62,8 @@ j
 * [Problem Link](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 * [Solution Link](../../LC0001_1000/LC0161_0170/LC0167_TwoSumII_InputArrayIsSorted.java)
 * Idea: two pointers (`i` and `j`) starting from the beginning and end of `nums`, respectively. If `nums[i] + nums[j] == target`, return `[i+1, j+1]`. If `nums[i] + nums[j] < target`, increment `i`. If `nums[i] + nums[j] > target`, decrement `j`.
+
+# LC209_MinimumSizeSubarraySum.java
+* [Problem Link](https://leetcode.com/problems/minimum-size-subarray-sum/)
+* [Solution Link](../../LC0001_1000/LC0201_0300/LC0209_MinimumSizeSubarraySum.java)
+* Idea: two pointers (`i` and `j`) starting from the beginning of `nums`. `i` is the slow pointer, `j` is the fast pointer. If `sum < s`, increment `j`. If `sum >= s`, update the answer, and increment `i`.
