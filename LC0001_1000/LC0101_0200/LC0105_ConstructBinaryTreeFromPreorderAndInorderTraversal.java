@@ -2,8 +2,6 @@ package LC0001_1000.LC0101_0200;
 
 import java.util.HashMap;
 
-import javax.swing.tree.TreeNode;
-
 /**
  * 105. Construct Binary Tree from Preorder and Inorder Traversal
  * https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
