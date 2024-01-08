@@ -18,6 +18,9 @@ This file contains a series of questions with their possible followup questions,
 1. Basic Question: [Two Pointers] [LC125_ValidPalindrome.java](../LC0001_1000/LC0121_0130/LC0125_ValidPalindrome.java), check if a string is palindrome.
 2. [*DFS+Backtracing]: [LC131_PalindromePartitioning.java](../LC0001_1000/LC0101_0200/LC0131_PalindromePartitioning.java), partition a string into palindrome substrings.
 
+# Parentheses [*Stack]
+1. Basic Question: [LC20_ValidParentheses.java](../LC0001_1000/LC0011_0020/LC0020_ValidParentheses.java), check if a string of parentheses is valid.
+
 # Remove Duplicates from Sorted Array [*Two Pointers]
 1. Basic Question: [LC26_RemoveDuplicatesFromSortedArray.java](../LC0001_1000/LC0001_0100/LC0026_RemoveDuplicatesFromSortedArray.java), remove duplicates from sorted array: `nums[fast]!=nums[slow-1]`
 2. Keep at most 2 duplicates: [LC80_RemoveDuplicatesFromSortedArrayII.java](../LC0001_1000/LC0071_0080/LC0080_RemoveDuplicatesFromSortedArrayII.java): `nums[fast]!=nums[slow-2]`
