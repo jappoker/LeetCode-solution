@@ -1,6 +1,22 @@
 # Tree
 This folder contains problems and solutions related to tree.
 
+## Construct Binary Tree
+### LC105_ConstructBinaryTreeFromPreorderAndInorderTraversal
+* [LC105_ConstructBinaryTreeFromPreorderAndInorderTraversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
+* [Solution](../LC0001_1000/LC0101_0200/LC0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java)
+* Idea: 
+  * Build a hashmap to record the relation of value -> index for inorder.
+  * Use an integer variable `preorderIndex` to keep track of the element that will be used to construct the root.
+  * Implement the recursion function returns the constructed binary tree:     
+    * if the range is empty, return null;
+    * initialize the root with val of `preorder[preorderIndex]++`;
+    * recursively use the left and right portions of inorder to construct the left and right subtrees.
+      * `root.left = helper(preorder, left, map.get(val) - 1);` 
+      * `root.right = helper(preorder, map.get(val) + 1, right);`
+
+
+
 ## Binary Search Tree
 ### LC938_RangeSumOfBST
 * [LC938_RangeSumOfBST](https://leetcode.com/problems/range-sum-of-bst/description/)
