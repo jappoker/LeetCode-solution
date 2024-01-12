@@ -13,6 +13,12 @@ This file contains a series of questions with their possible followup questions,
 # Binary Search Tree [*BST, DFS]
 1. Basic Question: [LC98_ValidateBinarySearchTree.java](../LC0001_1000/LC0001_0100/LC0098_ValidateBinarySearchTree.java), check if a binary tree is a valid BST.
 
+
+# Binary Tree [*DFS, BFS]
+1. Traverse Questions
+   1. Level Order Traversal: [LC102_BinaryTreeLevelOrderTraversal.java](../LC0001_1000/LC0101_0200/LC0102_BinaryTreeLevelOrderTraversal.java), BFS with queue.
+2. Build tree from traverse results
+
 # Jump Game [*Greedy/DP]
 1. Basic Question: [LC55_JumpGame.java](../LC0001_1000/LC0001_0100/LC0055_JumpGame.java), can jump to the end or not?
 2. Followup: [LC45_JumpGameII.java](../LC0001_1000/LC0001_0100/LC0045_JumpGameII.java), minimum number of jumps to reach the end?

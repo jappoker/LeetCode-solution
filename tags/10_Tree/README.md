@@ -1,6 +1,14 @@
 # Tree
 This folder contains problems and solutions related to tree.
 
+## Binary Tree
+### LC94_BinaryTreeInorderTraversal
+
+### LC102_BinaryTreeLevelOrderTraversal
+* [LC102_BinaryTreeLevelOrderTraversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
+* [Solution](../../LC0001_1000/LC0101_0200/LC0102_BinaryTreeLevelOrderTraversal.java)
+* Idea: BFS with queue, or DFS carry a `level` variable.
+
 ## Construct Binary Tree
 ### LC105_ConstructBinaryTreeFromPreorderAndInorderTraversal
 * [LC105_ConstructBinaryTreeFromPreorderAndInorderTraversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
