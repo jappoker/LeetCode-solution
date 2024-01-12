@@ -31,6 +31,18 @@ This folder contains problems and solutions related to tree.
 
 
 ## Binary Search Tree
+### LC98_ValidateBinarySearchTree
+* [LC98_ValidateBinarySearchTree](https://leetcode.com/problems/validate-binary-search-tree/description/)
+* [Solution](../../LC0001_1000/LC0001_0100/LC0098_ValidateBinarySearchTree.java)
+* Idea: Binary Search Tree. 
+  * Variables:
+    * `min` is the minimum value of the subtree.
+    * `max` is the maximum value of the subtree.
+  * Conditions: 
+    * If `root == null`, return `true`.
+    * If `root.val <= min` or `root.val >= max`, return `false`.
+    * Otherwise, return `isValidBST(root.left, min, root.val)` and `isValidBST(root.right, root.val, max)`.
+    * 
 ### LC938_RangeSumOfBST
 * [LC938_RangeSumOfBST](https://leetcode.com/problems/range-sum-of-bst/description/)
 * [Solution](../../LC0001_1000/LC0901_1000/LC0938_RangeSumOfBST.java)
