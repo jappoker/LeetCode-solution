@@ -71,3 +71,8 @@ j
 * [Problem Link](https://leetcode.com/problems/minimum-size-subarray-sum/)
 * [Solution Link](../../LC0001_1000/LC0201_0300/LC0209_MinimumSizeSubarraySum.java)
 * Idea: two pointers (`i` and `j`) starting from the beginning of `nums`. `i` is the slow pointer, `j` is the fast pointer. If `sum < s`, increment `j`. If `sum >= s`, update the answer, and increment `i`.
+
+## LC392_IsSubsequence.java
+* [Problem Link](https://leetcode.com/problems/is-subsequence/)
+* [Solution Link](../../LC0001_1000/LC0391_0400/LC0392_IsSubsequence.java)
+* Idea: two pointers (`i` and `j`) starting from the beginning of `s` and `t`, respectively. If `s[i] == t[j]`, increment `i`. Otherwise, increment `j`.
