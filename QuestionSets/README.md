@@ -25,6 +25,7 @@ This file contains a series of questions with their possible followup questions,
 
 # LCA [*DFS]
 1. Basic Question: [LC236_LowestCommonAncestorOfABinaryTree.java](../LC0001_1000/LC0201_0300/LC0236_LowestCommonAncestorOfABinaryTree.java), find the lowest common ancestor of two nodes in a binary tree.
+2. BST: [LC235_LowestCommonAncestorOfABinarySearchTree.java](../LC0001_1000/LC0201_0300/LC0235_LowestCommonAncestorOfABinarySearchTree.java), find the lowest common ancestor of two nodes in a binary search tree.
 
 # Palindrome [*DP]
 1. Basic Question: [Two Pointers] [LC125_ValidPalindrome.java](../LC0001_1000/LC0121_0130/LC0125_ValidPalindrome.java), check if a string is palindrome.

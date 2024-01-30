@@ -12,6 +12,7 @@ This folder contains problems and solutions related to tree.
 ### LC236_LowestCommonAncestorOfABinaryTree
 * [LC236_LowestCommonAncestorOfABinaryTree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
 * [Solution](../../LC0001_1000/LC0201_0300/LC0236_LowestCommonAncestorOfABinaryTree.java)
+  
 
 ## Construct Binary Tree
 ### LC105_ConstructBinaryTreeFromPreorderAndInorderTraversal
@@ -67,3 +68,6 @@ This folder contains problems and solutions related to tree.
     * If `root.val > R`, return `rangeSumBST(root.left, L, R)`.
     * Otherwise, return `root.val + rangeSumBST(root.left, L, R) + rangeSumBST(root.right, L, R)`.
 
+### LC235_LowestCommonAncestorOfABinarySearchTree
+* [LC235_LowestCommonAncestorOfABinarySearchTree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)
+* [Solution](../../LC0001_1000/LC0201_0300/LC0235_LowestCommonAncestorOfABinarySearchTree.java)
