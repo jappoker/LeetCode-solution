@@ -23,6 +23,9 @@ This file contains a series of questions with their possible followup questions,
 1. Basic Question: [LC55_JumpGame.java](../LC0001_1000/LC0001_0100/LC0055_JumpGame.java), can jump to the end or not?
 2. Followup: [LC45_JumpGameII.java](../LC0001_1000/LC0001_0100/LC0045_JumpGameII.java), minimum number of jumps to reach the end?
 
+# LCA [*DFS]
+1. Basic Question: [LC236_LowestCommonAncestorOfABinaryTree.java](../LC0001_1000/LC0201_0300/LC0236_LowestCommonAncestorOfABinaryTree.java), find the lowest common ancestor of two nodes in a binary tree.
+
 # Palindrome [*DP]
 1. Basic Question: [Two Pointers] [LC125_ValidPalindrome.java](../LC0001_1000/LC0121_0130/LC0125_ValidPalindrome.java), check if a string is palindrome.
 2. [*DFS+Backtracing]: [LC131_PalindromePartitioning.java](../LC0001_1000/LC0101_0200/LC0131_PalindromePartitioning.java), partition a string into palindrome substrings.

@@ -9,6 +9,10 @@ This folder contains problems and solutions related to tree.
 * [Solution](../../LC0001_1000/LC0101_0200/LC0102_BinaryTreeLevelOrderTraversal.java)
 * Idea: BFS with queue, or DFS carry a `level` variable.
 
+### LC236_LowestCommonAncestorOfABinaryTree
+* [LC236_LowestCommonAncestorOfABinaryTree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
+* [Solution](../../LC0001_1000/LC0201_0300/LC0236_LowestCommonAncestorOfABinaryTree.java)
+
 ## Construct Binary Tree
 ### LC105_ConstructBinaryTreeFromPreorderAndInorderTraversal
 * [LC105_ConstructBinaryTreeFromPreorderAndInorderTraversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
